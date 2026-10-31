@@ -17,15 +17,22 @@ ul{
 </head>
 
 <body>
+    <button id="mybutton" type="button">click me</button>
 <script>
     let a=50,  b=10, c=90;
     let avg=(a+b+c)/3;
     document.write("average=", +avg);
+
+    const button = document.getElementById("mybutton")
+    button.addEventListener("click",function(){
+        alert("button clicked");
+    })
 </script>
 <marquee>Goku is Father of Anime</marquee>
 <h1>This is a 1st</h1>
 <p>This is a 2nd</p>
 <p>hello world</p>
+
 <ul>
     <li>The world is beautiful</li>
     <li>Price died in MW4</li>
